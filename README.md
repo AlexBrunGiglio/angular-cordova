@@ -12,4 +12,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 
 # Cordova
-Run `cordova run [browser] | [ios] | [android]`.
+Run `cordova run browser`.
+You can install this app and after try offline. 
