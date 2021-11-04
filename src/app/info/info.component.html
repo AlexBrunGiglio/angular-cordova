@@ -1,3 +1,15 @@
 <app-tabs>
-    <p>info works!</p>
+    <div class="container">
+        <img src="/assets/icons/andova.png" style="height: 300px;" alt="">
+        <ul>
+            <li>OS - {{deviceInfo.os}}</li>
+            <li>Navigateur - {{deviceInfo.browser}}</li>
+            <li>Appareil - {{deviceInfo.device}}</li>
+            <li>OS Version - {{deviceInfo.os_version}}</li>
+            <li>Navigateur version - {{deviceInfo.browser_version}}</li>
+            <li>Type d'appareil - {{deviceInfo.deviceType}}</li>
+            <li>Orientation - {{deviceInfo.orientation}}</li>
+        </ul>
+    </div>
+
 </app-tabs>
