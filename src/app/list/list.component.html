@@ -18,9 +18,18 @@
                 <a (click)="openDialog(row)" mat-icon-button matTooltip="Modifier la langue">
                     <mat-icon>edit</mat-icon>
                 </a>
+                <a (click)="removeItem(row)" mat-icon-button matTooltip="Modifier la langue">
+                    <mat-icon>delete</mat-icon>
+                </a>
             </td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
+    <div class="btn-row">
+        <button mat-flat-button (click)="addItem()">
+            <mat-icon>add</mat-icon>
+            Ajouter
+        </button>
+    </div>
 </app-tabs>

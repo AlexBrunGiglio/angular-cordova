@@ -18,4 +18,5 @@ export class DialogComponent implements OnInit {
   ngOnInit(): void {
     console.log("🚀 ~ DialogComponent ~ item", this.item);
   }
+
 }
