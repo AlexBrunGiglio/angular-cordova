@@ -1,0 +1,13 @@
+app-home {
+    overflow-y: hidden;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40%;
+        h2 {
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+}

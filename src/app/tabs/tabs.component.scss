@@ -1,0 +1,22 @@
+app-tabs {
+    .tabs {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .tabs-menu {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        justify-content: space-between;
+        padding: 10px 20px 30px 20px;
+        border-top: 1px solid rgb(193, 193, 193);
+        align-items: center;
+    }
+
+    .router-link-active {
+        img {
+            filter: invert(162%) sepia(0%) saturate(872%) hue-rotate(92deg) brightness(79%) contrast(162%);
+        }
+    }
+}

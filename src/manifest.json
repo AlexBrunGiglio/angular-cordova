@@ -1,0 +1,24 @@
+{
+    "name": "Tops des langages",
+    "short_name": "Tops Langage",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffff",
+    "icons": [
+        {
+            "src": "assets/icons/andova.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/andova.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "web"
+        }
+    ]
+}
