@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636026759267,
+  "timestamp": 1636028416391,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,12 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
+        "/OneSignalSDKUpdaterWorker.js",
+        "/OneSignalSDKWorker.js",
         "/assets/offline.html",
         "/favicon.ico",
         "/index.html",
-        "/main.4beaf56b44407b0f3a41.js",
+        "/main.c91ee98ada6fea60ecb4.js",
         "/manifest.webmanifest",
-        "/polyfills.d45802d3d05405633285.js",
+        "/polyfills.53b7836c83ab632b4f72.js",
         "/runtime.54e00f123b91cbfe15e2.js",
         "/styles.ef303618c0c3c205f96b.css"
       ],
@@ -49,6 +51,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/OneSignalSDKUpdaterWorker.js": "2a04201028527d0db7532997f5c51de0291d5b6f",
+    "/OneSignalSDKWorker.js": "2a04201028527d0db7532997f5c51de0291d5b6f",
     "/assets/icons/andova.png": "769669ef76a5de66d303f1ba39c60fddf9799eb9",
     "/assets/icons/home.svg": "fdd946ffb30a5723a09592cd7c1266d92817daf8",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -64,10 +68,10 @@
     "/assets/icons/list.svg": "82f82451309efea5010f5131f3af556bf2b3f52f",
     "/assets/offline.html": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/favicon.ico": "6c022e4cedb42ce66406dec70e1a97ee56e08904",
-    "/index.html": "7b6a92f164ca67035ce7bf47337faa55212b8154",
-    "/main.4beaf56b44407b0f3a41.js": "01edf03564e8e06c4920bcd270ad6f7f545027da",
+    "/index.html": "2b54682c62e4b949feda3271ca6a9026801e4d61",
+    "/main.c91ee98ada6fea60ecb4.js": "c0bc4ecf5dd57f7a9f06284ba3b30fe66e5135d5",
     "/manifest.webmanifest": "b2698d33fff948215eda7ac7d16792723b58e670",
-    "/polyfills.d45802d3d05405633285.js": "be9ee6019eafb8b54966172a937c5cfe5a97a253",
+    "/polyfills.53b7836c83ab632b4f72.js": "be9ee6019eafb8b54966172a937c5cfe5a97a253",
     "/runtime.54e00f123b91cbfe15e2.js": "a00e026647a001725dea76e46e4d88182d40bf97",
     "/styles.ef303618c0c3c205f96b.css": "5d6f755ae88f2b17490219c9d7d89970dd49cc73"
   },
